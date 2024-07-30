@@ -3,14 +3,17 @@ This is not complete but will be updated with time...
 
 Full setup of this dell machine with linux and other machines in a vm, also some basic setups that can be done to tackle some issues that may come about.
 
-Preety basic setup. Im trying to set it up as easy as possible, maybe easy enough for newbie users like me.
+Preety basic setup. Im trying to document how I set this machine up, roblems I came accross and potential fixes and how to make it usable at least as a daily driver, maybe an easy enough setup for newbie users like me.
 
-To do list:
+# To do list:
+
 Debian will be installed
 Steam will be installed
 Gnome boxes for virtualisation
 Nvidia proprietary drivers and setup
 A little bit of customization to gnome
+Firefox touchscreen gestures will be fixed
+
 
 I have a dell xps 9570, i9-8950HK, 32gb of RAM, 1tb nvme. I have been testing different operating systems and at the moment dont want to have a triple boot, The setup had windows 11, mac os 12, with full touchscreen support, linux was mostly a switch between parrot os and debian Parrot security os was there because I needed to do some vulnerability scanning on some network infrastructure, only problem was that parrot security os always broke something on the machine, I love using gnome, unforuntaely, I could not figure out why the bluetooth audio kept cutting out anytime I stream music from my phone to the laptop through bluetooth, second problem is that the repository is broken and usually holds many broken packages and dependencies, it could just be me who is so lazy and cant figure it out, thereis usually a workaround, it only becomes a problem when it comes up regularly. I tried installing kali, using gnome as the dekstop manager, it was worse, the touch doesnt work and it seemed to be slow, also could be sorted but probably takes a lot of time.
 
@@ -22,7 +25,7 @@ Depending on your tool of choice, here is how to flash an image to a usb drive.
 Plug your usb device to the pc, launch rufus.exe after installing. Select device, this will be the usb devbice you have added, in most cases, it will detect it by default, so there should be no worries there.
 
 
-post install
+# Post install
 The touchpad seems to be really bad for me, its either I dont know how to use it or the touchpad hardware itself is bad, if you face issues with clicking like me, you can ebale tap to click in the settings, if its not very usable, you can use the toucscreen or an external mouse to access the settings.
 First is to pass the welcome screen, select next if the language is correct, next if the keyboard selected is correct. You can turn location services on or off if you wish, i turned mine off, select next after choosing and you can connect accounts if you like, not necessarily compulsory now, you can set it up in the settings later, so I choose skip here. Then all is done.
 
@@ -67,7 +70,7 @@ Close and go back, select settings under hide top bar and choose the following, 
 
 There is a small bug where in some full screen apps, when you take your mouse to the top of the screen, the top bar gets hidden right away, fixing this is easy, you just need to download and install this extra extension Disable unredirect fullscreen windows https://extensions.gnome.org/extension/1873/disable-unredirect-fullscreen-windows/ after installing, the top bar should work just fine.
 
-#Change wallpaper
+# Change wallpaper
 I downloaded a wallpaper off the internet that I liked, it can be downloaded from here https://wallpapercave.com/w/uwp4451869 
 After downloading, navigate to your downloads folder and select the picture, right click on the image and select 'set as background'. After selecting, select 'set'. You should now have a custom wallpaper.
 
