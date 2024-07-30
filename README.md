@@ -65,6 +65,35 @@ Now go to the app menu and search 'extensions' launch extensions and under blur 
 
 Close and go back, select settings under hide top bar and choose the following, you can also customize the settings to your wish.
 
+There is a small bug where in some full screen apps, when you take your mouse to the top of the screen, the top bar gets hidden right away, fixing this is easy, you just need to download and install this extra extension Disable unredirect fullscreen windows https://extensions.gnome.org/extension/1873/disable-unredirect-fullscreen-windows/ after installing, the top bar should work just fine.
+
+#Change wallpaper
+I downloaded a wallpaper off the internet that I liked, it can be downloaded from here https://wallpapercave.com/w/uwp4451869 
+After downloading, navigate to your downloads folder and select the picture, right click on the image and select 'set as background'. After selecting, select 'set'. You should now have a custom wallpaper.
+
+# Fix firefox touchscreen gestures in wayland
+To enable proper touch scroll function in firefox, we need to edit a file, simply open the terminal, and use the commands sudo nano /etc/security/pam_env.conf press enter and in the file opened under nano, go to the bottom of the file and add this line MOZ_USE_XINPUT2 DEFAULT=1
+Press ctrl+s to save the file and press ctrl+x to close the nano editor. Reboot and on the next launch of firefox, you should have much more responsive touch function.
+
+# Install gnome boxes (not compulsory at all, you probably don't need it unless you want to virtualize windows or some other linux distribution)
+
+Gnome boxes can be used to run and manage virtual machines,
+to install this, go to the terminal and use sudo apt install gnome-boxes input your user password, a couple of packages will be added, press y and press enter to continue.
+After installation, you can launch gnome boxes from the menu. I probably cannot go further into configuring a virtual machine, but for testing purposes, you can download an iso of a linux distribution.
+The downloaded iso can be found imost likely in your downloads folder and should be detected by default in gnome boxes.
+
+Launch gnome boxes, press the plus button to add a virtual machine, it should show the downloaded iso if supported.
+Select the right template and if unknown, select unknown os.
+Review and create, the error found above; 'virtualization extensions are unavailable on your system' can easily be fixed by going to the terminal and installing install libvirt-clients. We should no longer have this error when setting up a vm again. But we can go back to gnome boxes and allocate the right resources to the machine based on your specs and what you want to give to it.
+I will allocate 4gb of ram and 20gb of storage probably can be fine, at least for testing, worst case scenario the storage provisioned is not enough and can be adjusted.
+You can allow to inhibit shortcuts or deny. It should launch the machine and you should be able to use it right away.
+
+That's probably how far I can help, at least for now, you can choose to do whatever you'd like with the virtual machine, but you can do the same with windows and with enough tinkering, mac os.
+
+
+
+
+
 
 
 
