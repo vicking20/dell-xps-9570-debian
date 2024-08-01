@@ -43,19 +43,33 @@ sudo adduser 'input your username here' sudo (in my case, the code is sudo addus
 You can reboot your pc to allow the sudo user to be added or logout and log back in just in case, if not, you may need to use the superuser to do some installations which is not encouraged.
 
 Go to the steam website to download the latest version of steam https://store.steampowered.com/about/. Click install steam and the file will be downloaded. Then you can go to the file manager, locate the downloaded file, right click on an empty space and select 'open in terminal'
+![Screenshot from 2024-07-29 15-40-06](https://github.com/user-attachments/assets/5be0d4ca-c739-45ee-af38-c4dc1837095c)
+
 you can use the code below
 sudo apt install ./steam_latest.deb
+![Screenshot from 2024-07-29 15-45-12](https://github.com/user-attachments/assets/e0f22502-f760-4e85-bde4-fe8854c5bf1e)
+
 new packages will be installed, press y to continue and enter
+![Screenshot from 2024-07-29 15-45-57](https://github.com/user-attachments/assets/782598f7-0dbe-4df6-86b9-e962c344362f)
+
 After this, you can find steam under the app lists. Select steam, and there will be some other things to install. Press enter to update the package cache and you will need to input your user password.
+![Screenshot from 2024-07-29 15-46-44](https://github.com/user-attachments/assets/56959aab-a659-464e-a5c7-309219156243)
 
 Press enter to continue with installation, press y and press enter to approve the installation.
-
 Press enter to continue
+
 Steam setup will run and will update the runtime environment.
 Drink some water/tea/coffee, give it a bit for it to do its thing.
 Steam should now be installed and will launch itself, you can now sign in to your steam account.
+![Screenshot from 2024-07-29 15-51-17](https://github.com/user-attachments/assets/ccadcd1f-098f-4e99-a6d4-c2c47d8a33f5)
+
 Sometimes it may not allow you to play all your games in your library, and some games probably wont work either, but for the most part, a lot of them should work.
-Settings to double check, you can go to 'steam > settings > compatibility' and select enable steam play for all other titles. You will need to restart steam to get this done, but you can select restart later for now, and you should see the option 'run other titles with: proton experimental will be there by default, but may not work for all games, especially if you would like to run some windows exe games directly. In this case, you can tinker around with different proton versions, proton 8.0-5 should be fine, maybe proton 9 works fine also, but I have not tested it, I dont play so many games. Now you can select restart. Steam will restart and you can probably use it to run a few games. But we still need to do some other stuff to at least let the graphics card work properly to handle games.
+Settings to double check, you can go to 'steam > settings > compatibility' and select enable steam play for all other titles. You will need to restart steam to get this done, but you can select restart later for now, and you should see the option 'run other titles with: proton experimental will be there by default, but may not work for all games, especially if you would like to run some windows exe games directly. In this case, you can tinker around with different proton versions, proton 8.0-5 should be fine, maybe proton 9 works fine also, but I have not tested it, I dont play so many games. Now you can select restart. Steam will restart and you can probably use it to run a few games.
+![Screenshot from 2024-07-29 15-53-15](https://github.com/user-attachments/assets/ce5bc86d-333d-490d-8b0e-6539bb5befd8)
+ 
+
+
+But we still need to do some other stuff to at least let the graphics card work properly to handle games.
 For now, steam can be closed.
 
 # Minimal customization of gnome (This is totally optional and you do not need this, you can also check different ways to customize your gnome setup if you wish)
